@@ -2,12 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace ArkhamHorrorTracker.Database.ArkhamDbJson
+namespace ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto
 {
     /// <summary>
     /// arkhamdb-json-data - Pack
     /// </summary>
-    public class Pack
+    public class PackDto
     {
         /// Identifier of the pack.The acronym of the pack name, with matching case, except for Core Set. Examples: "Core" for Core Set
         [JsonProperty("code")]
@@ -33,11 +33,11 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson
         [JsonProperty("size")]
         public int? Size { get; set; }
 
-        public List<Card> Cards { get; set; }
+        public List<CardDto> Cards { get; set; }
 
-        public Pack()
+        public PackDto()
         {
-            Cards = new List<Card>();
+            Cards = new List<CardDto>();
         }
     }
 }

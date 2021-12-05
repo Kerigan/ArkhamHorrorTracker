@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kerig\\.nuget\\packages\\": {},
+    "C:\\Users\\brian\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\ArkhamHorrorTracker\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\Code\\ArkhamHorrorTracker\\Core\\Core.csproj",
       "projectName": "ArkhamHorrorTracker.Core",
-      "projectPath": "C:\\Code\\ArkhamHorrorTracker\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\kerig\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\ArkhamHorrorTracker\\Core\\obj\\",
+      "projectPath": "D:\\Code\\ArkhamHorrorTracker\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\ArkhamHorrorTracker\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kerig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

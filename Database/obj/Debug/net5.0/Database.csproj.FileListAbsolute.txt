@@ -10,3 +10,16 @@ C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.csproj.CoreCompil
 C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ArkhamHorrorTracker.Database.dll
 C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ref\ArkhamHorrorTracker.Database.dll
 C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ArkhamHorrorTracker.Database.pdb
+D:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\ArkhamHorrorTracker.Database.deps.json
+D:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\ArkhamHorrorTracker.Database.dll
+D:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\ref\ArkhamHorrorTracker.Database.dll
+D:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\ArkhamHorrorTracker.Database.pdb
+D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.csproj.AssemblyReference.cache
+D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.AssemblyInfoInputs.cache
+D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.AssemblyInfo.cs
+D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.csproj.CoreCompileInputs.cache
+D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ArkhamHorrorTracker.Database.dll
+D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ref\ArkhamHorrorTracker.Database.dll
+D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ArkhamHorrorTracker.Database.pdb
+D:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\arkhamdb-json-data\pack\core\core.json

@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace ArkhamHorrorTracker.Database.ArkhamDbJson
+namespace ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto
 {
     /// <summary>
     /// arkhamdb-json-data - Cycle
     /// </summary>
-    public class Cycle
+    public class CycleDto
     {
         /// Identifier of the cycle.One single lowercase word.Examples: "core"
         [JsonProperty("code")]
@@ -24,11 +24,11 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson
         [JsonProperty("size")]
         public int Size { get; set; }
 
-        public List<Pack> Packs { get; set; }
+        public List<PackDto> Packs { get; set; }
 
-        public Cycle()
+        public CycleDto()
         {
-            Packs = new List<Pack>();
+            Packs = new List<PackDto>();
         }
     }
 }

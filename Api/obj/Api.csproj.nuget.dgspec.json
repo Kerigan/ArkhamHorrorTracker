@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\ArkhamHorrorTracker\\Api\\Api.csproj": {}
+    "D:\\Code\\ArkhamHorrorTracker\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Code\\ArkhamHorrorTracker\\Api\\Api.csproj": {
+    "D:\\Code\\ArkhamHorrorTracker\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\ArkhamHorrorTracker\\Api\\Api.csproj",
+        "projectUniqueName": "D:\\Code\\ArkhamHorrorTracker\\Api\\Api.csproj",
         "projectName": "ArkhamHorrorTracker.Api",
-        "projectPath": "C:\\Code\\ArkhamHorrorTracker\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\kerig\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\ArkhamHorrorTracker\\Api\\obj\\",
+        "projectPath": "D:\\Code\\ArkhamHorrorTracker\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\ArkhamHorrorTracker\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kerig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

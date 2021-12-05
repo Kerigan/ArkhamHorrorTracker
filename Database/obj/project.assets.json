@@ -10,6 +10,18 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "Newtonsoft.Json.Schema/3.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.Schema.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Schema.dll": {}
+        }
       }
     }
   },
@@ -40,31 +52,55 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "Newtonsoft.Json.Schema/3.0.14": {
+      "sha512": "Qnu41yEFuMEJMuD1kJgslc4cF981K+hA7SmgXQ/N6pk6Zknvxt4g5Hx7KRykycP3oKyoz3aTFRV/TX+Vp6v7uQ==",
+      "type": "package",
+      "path": "newtonsoft.json.schema/3.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net35/Newtonsoft.Json.Schema.dll",
+        "lib/net35/Newtonsoft.Json.Schema.xml",
+        "lib/net40/Newtonsoft.Json.Schema.dll",
+        "lib/net40/Newtonsoft.Json.Schema.xml",
+        "lib/net45/Newtonsoft.Json.Schema.dll",
+        "lib/net45/Newtonsoft.Json.Schema.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Schema.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Schema.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.Schema.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.Schema.xml",
+        "newtonsoft.json.schema.3.0.14.nupkg.sha512",
+        "newtonsoft.json.schema.nuspec",
+        "packageIcon.png"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "Newtonsoft.Json.Schema >= 3.0.14"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kerig\\.nuget\\packages\\": {},
+    "C:\\Users\\brian\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
+      "projectUniqueName": "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
       "projectName": "ArkhamHorrorTracker.Database",
-      "projectPath": "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
-      "packagesPath": "C:\\Users\\kerig\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\ArkhamHorrorTracker\\Database\\obj\\",
+      "projectPath": "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
+      "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\ArkhamHorrorTracker\\Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kerig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -94,6 +130,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "Newtonsoft.Json.Schema": {
+            "target": "Package",
+            "version": "[3.0.14, )"
           }
         },
         "imports": [

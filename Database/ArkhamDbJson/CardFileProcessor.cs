@@ -1,6 +1,8 @@
-﻿using Newtonsoft.Json;
+﻿using ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
+using Newtonsoft.Json.Schema.Generation;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,10 +16,13 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson
     {
         public string ReadFile(string path)
         {
-            throw new NotImplementedException();
+            using (TextReader reader = File.OpenText(@"C:\Code\ArkhamHorrorTracker\Database\arkhamdb-json-data\schema\card_schema.json"))
+            {
+                throw new NotImplementedException();
+            }
         }
 
-        public List<Card> ProcessJson(string json)
+        public List<CardDto> ProcessJson(string json)
         {
             // Throw out non-json
             if (String.IsNullOrEmpty(json)
@@ -25,33 +30,30 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson
                     (json.Trim().StartsWith("[") && json.Trim().EndsWith("]"))))
                 throw new ArgumentException("Unable to process - Input is not JSON");
 
-            JObject inputJson;
-            List<Card> results = new List<Card>();
+            JArray inputJsonArray;
 
             try
             {
-                inputJson = JObject.Parse(json);
+                inputJsonArray = JArray.Parse(json);
             }
-            catch (JsonSerializationException e)
+            catch (Exception e)
             {
-                throw new ArgumentException("Input does not match Card schema");
-            }
-            catch
-            {
-                throw;
+                if (e is JsonSerializationException
+                    || e is JsonReaderException)
+                    throw new ArgumentException("Unable to process - Input does not match Card schema");
+                else
+                    throw;
             }
 
             // Validate input against schema
-            // TODO: This shouldn't be a hard-coded location
-            using (TextReader reader = File.OpenText(@"C:\Code\ArkhamHorrorTracker\Database\arkhamdb-json-data\schema\card_schema.json"))
-            {
-                JsonSchema schema = JsonSchema.Read(new JsonTextReader(reader));
+            JSchemaGenerator generator = new JSchemaGenerator();
+            JSchema schema = generator.Generate(typeof(List<CardDto>));
 
-                if (!inputJson.IsValid(schema))
-                    throw new ArgumentException("Input does not match Card schema");
-            }
+            if (!inputJsonArray.IsValid(schema))
+                throw new ArgumentException("Unable to process - Input does not match Card schema");
 
-            return results;
+            return inputJsonArray
+                .ToObject<List<CardDto>>();
         }
     }
 }

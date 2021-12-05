@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj": {}
+    "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj": {}
   },
   "projects": {
-    "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj": {
+    "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
+        "projectUniqueName": "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
         "projectName": "ArkhamHorrorTracker.Database",
-        "projectPath": "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
-        "packagesPath": "C:\\Users\\kerig\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\ArkhamHorrorTracker\\Database\\obj\\",
+        "projectPath": "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\ArkhamHorrorTracker\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kerig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -47,6 +47,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.14, )"
             }
           },
           "imports": [

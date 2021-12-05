@@ -1,9 +1,11 @@
 ﻿using ArkhamHorrorTracker.Database.ArkhamDbJson;
+using ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto;
 using FluentAssertions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +55,28 @@ namespace Tests.Database.ArkhamDbJson
                 .Should()
                 .Throw<ArgumentException>()
                 .WithMessage("Unable to process - Input does not match Card schema");
+        }
+
+        [Fact]
+        public void ProcessJson_should_return_list_carddto_from_core_json()
+        {
+            var path = Directory.GetFiles("./arkhamdb-json-data/pack/core/", "core.json")?.FirstOrDefault();
+            JArray input;
+            using (TextReader reader = File.OpenText(path))
+            {
+                input = JArray.ReadFrom(new JsonTextReader(reader)).ToObject<JArray>();
+            }
+
+            CardFileProcessor test = new CardFileProcessor();
+            var output = test.ProcessJson(input.ToString());
+
+            output
+                .Should()
+                .BeOfType<List<CardDto>>();
+
+            output
+                .Should()
+                .HaveCount(104);
         }
     }
 }
