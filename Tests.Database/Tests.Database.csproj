@@ -7,6 +7,40 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ArkhamDbJson\ProcessCardJsonFromPathNonJsonTest.json" />
+    <None Remove="ArkhamDbJson\ReadFileTestFile.json" />
+    <None Remove="ArkhamDbJson\TestFiles\core.json" />
+    <None Remove="ArkhamDbJson\TestFiles\cycles.json" />
+    <None Remove="ArkhamDbJson\TestFiles\InvalidArrayTest.json" />
+    <None Remove="ArkhamDbJson\TestFiles\NonArrayTest.json" />
+    <None Remove="ArkhamDbJson\TestFiles\packs.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ArkhamDbJson\TestFiles\core.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\TestFiles\cycles.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\TestFiles\InvalidArrayTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\TestFiles\NonArrayTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\TestFiles\NonJsonTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\TestFiles\packs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\TestFiles\ReadFileTestFile.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="6.2.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/kYhiTXTvANq5s0TVkt0BUWqI9DCGyXoYQ6FLiNa1JnXzWjRL4v/Cse1FEBXq9xQdNEDf7cNgXCI5P9ZSzfl5g==",
+  "dgSpecHash": "fjYK7YTzISNwhPJty81LjY+5qOaK5F9P9yCfSq6JOq/8Vd+3liEKbplfn0bg/wb8sV0V0aHBUNgjw+Ib6cIdIw==",
   "success": true,
-  "projectFilePath": "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
+  "projectFilePath": "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\brian\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\brian\\.nuget\\packages\\newtonsoft.json.schema\\3.0.14\\newtonsoft.json.schema.3.0.14.nupkg.sha512"
+    "C:\\Users\\kerig\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\kerig\\.nuget\\packages\\newtonsoft.json.schema\\3.0.14\\newtonsoft.json.schema.3.0.14.nupkg.sha512"
   ],
   "logs": []
 }

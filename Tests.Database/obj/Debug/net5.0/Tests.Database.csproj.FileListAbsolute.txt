@@ -214,3 +214,14 @@ D:\Code\ArkhamHorrorTracker\Tests.Database\obj\Debug\net5.0\Tests.Database.pdb
 D:\Code\ArkhamHorrorTracker\Tests.Database\obj\Debug\net5.0\Tests.Database.genruntimeconfig.cache
 D:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\Newtonsoft.Json.Schema.dll
 D:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\arkhamdb-json-data\pack\core\core.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\arkhamdb-json-data\pack\core\core.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\Newtonsoft.Json.Schema.dll
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\ArkhamDbJson\TestFiles\ReadFileTestFile.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\ArkhamDbJson\TestFiles\core.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\ArkhamDbJson\TestFiles\InvalidArrayTest.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\ArkhamDbJson\TestFiles\NonArrayTest.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\ArkhamDbJson\TestFiles\NonJsonTest.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\arkhamdb-json-data\cycles.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\arkhamdb-json-data\packs.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\ArkhamDbJson\TestFiles\cycles.json
+C:\Code\ArkhamHorrorTracker\Tests.Database\bin\Debug\net5.0\ArkhamDbJson\TestFiles\packs.json

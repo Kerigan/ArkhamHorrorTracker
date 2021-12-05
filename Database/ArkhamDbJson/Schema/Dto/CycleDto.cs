@@ -24,6 +24,7 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto
         [JsonProperty("size")]
         public int Size { get; set; }
 
+        [JsonIgnore]
         public List<PackDto> Packs { get; set; }
 
         public CycleDto()

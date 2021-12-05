@@ -23,3 +23,6 @@ D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ArkhamHorrorTracker.Databa
 D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ref\ArkhamHorrorTracker.Database.dll
 D:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ArkhamHorrorTracker.Database.pdb
 D:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\arkhamdb-json-data\pack\core\core.json
+C:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\arkhamdb-json-data\pack\core\core.json
+C:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\arkhamdb-json-data\cycles.json
+C:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\arkhamdb-json-data\packs.json

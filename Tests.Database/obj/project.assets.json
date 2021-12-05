@@ -5865,23 +5865,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brian\\.nuget\\packages\\": {},
+    "C:\\Users\\kerig\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\ArkhamHorrorTracker\\Tests.Database\\Tests.Database.csproj",
+      "projectUniqueName": "C:\\Code\\ArkhamHorrorTracker\\Tests.Database\\Tests.Database.csproj",
       "projectName": "Tests.Database",
-      "projectPath": "D:\\Code\\ArkhamHorrorTracker\\Tests.Database\\Tests.Database.csproj",
-      "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\ArkhamHorrorTracker\\Tests.Database\\obj\\",
+      "projectPath": "C:\\Code\\ArkhamHorrorTracker\\Tests.Database\\Tests.Database.csproj",
+      "packagesPath": "C:\\Users\\kerig\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\ArkhamHorrorTracker\\Tests.Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kerig\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5896,8 +5896,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj": {
-              "projectPath": "D:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj"
+            "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj": {
+              "projectPath": "C:\\Code\\ArkhamHorrorTracker\\Database\\Database.csproj"
             }
           }
         }

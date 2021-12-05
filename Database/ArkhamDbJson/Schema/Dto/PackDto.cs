@@ -26,13 +26,14 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto
         public int Position { get; set; }
 
         /// Date when the pack was officially released by FFG.When in doubt, look at the date of the pack release news on FFG's news page. Format of the date is YYYY-MM-DD. May be null - this value is used when the date is unknown. Examples: "2016-10-08" for Core Set
-        [JsonProperty("released")]
-        public DateTime? Released { get; set; }
+        [JsonProperty("date_release")]
+        public DateTime? DateReleased { get; set; }
 
         /// Number of different cards in the pack. May be null - this value is used when the pack is just an organizational entity, not a physical pack. Examples: 120 for Core Set
         [JsonProperty("size")]
         public int? Size { get; set; }
 
+        [JsonIgnore]
         public List<CardDto> Cards { get; set; }
 
         public PackDto()

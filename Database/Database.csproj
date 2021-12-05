@@ -7,10 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="arkhamdb-json-data\cycles.json" />
+    <None Remove="arkhamdb-json-data\packs.json" />
     <None Remove="arkhamdb-json-data\pack\core\core.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="arkhamdb-json-data\cycles.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\packs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="arkhamdb-json-data\pack\core\core.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
