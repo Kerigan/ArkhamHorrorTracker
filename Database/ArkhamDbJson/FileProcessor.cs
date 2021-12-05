@@ -1,4 +1,5 @@
-﻿using ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto;
+﻿using ArkhamHorrorTracker.Database.ArkhamDbJson.Schema;
+using ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
@@ -14,7 +15,68 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson
 {
     public class FileProcessor
     {
-        private bool ValidateJson(string json, Type schemaType, out JArray inputJsonArray)
+        public bool CheckForFile(string path)
+        {
+            return !((String.IsNullOrWhiteSpace(path))
+                || (path.IndexOfAny(Path.GetInvalidPathChars()) != -1)
+                || (!File.Exists(path))
+                || (Path.GetExtension(path) != ".json"));
+        }
+
+        public List<CardDto> ProcessCardJson(string json)
+        {
+            if (ValidateJson(json, SchemaTypes.Card, out var inputJsonArray))
+                return inputJsonArray
+                    .ToObject<List<CardDto>>();
+            else
+                return null;
+        }
+
+        public List<CardDto> ProcessCardJsonFromPath(string path)
+        {
+            return ProcessCardJson(ReadFile(path));
+        }
+
+        public List<CycleDto> ProcessCycleJson(string json)
+        {
+            if (ValidateJson(json, SchemaTypes.Cycle, out var inputJsonArray))
+                return inputJsonArray
+                    .ToObject<List<CycleDto>>();
+            else
+                return null;
+        }
+
+        public List<CycleDto> ProcessCycleJsonFromPath(string path)
+        {
+            return ProcessCycleJson(ReadFile(path));
+        }
+
+        public List<PackDto> ProcessPackJson(string json)
+        {
+            if (ValidateJson(json, SchemaTypes.Pack, out var inputJsonArray))
+                return inputJsonArray
+                    .ToObject<List<PackDto>>();
+            else
+                return null;
+        }
+
+        public List<PackDto> ProcessPackJsonFromPath(string path)
+        {
+            return ProcessPackJson(ReadFile(path));
+        }
+
+        public string ReadFile(string path)
+        {
+            if (!CheckForFile(path))
+                throw new ArgumentException("Invalid path");
+
+            using (TextReader reader = File.OpenText(path))
+            {
+                return reader.ReadToEnd();
+            }
+        }
+
+        private bool ValidateJson(string json, SchemaTypes schemaType, out JArray inputJsonArray)
         {
             // Throw out non-json
             if (String.IsNullOrEmpty(json)
@@ -36,8 +98,16 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson
             }
 
             // Validate input against schema
-            JSchemaGenerator generator = new JSchemaGenerator();
-            JSchema schema = generator.Generate(schemaType);
+            //JSchemaGenerator generator = new();
+            //JSchema schema = generator.Generate(schemaType);
+
+            JSchema schema = JSchema.Parse(ReadFile(schemaType switch
+            {
+                SchemaTypes.Card => "./ArkhamDbJson/Schema/Definitions/CardSchema.json",
+                SchemaTypes.Cycle => "./ArkhamDbJson/Schema/Definitions/CycleSchema.json",
+                SchemaTypes.Pack => "./ArkhamDbJson/Schema/Definitions/PackSchema.json",
+                _ => throw new ArgumentException("Invalid schema type")
+            }));
 
             // TODO: Figure out how to add an attribute to handle the dates properly
             if (schema?.Items?.FirstOrDefault()?.Properties != null
@@ -54,62 +124,6 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson
                 throw new ArgumentException("Unable to process - Input does not match schema");
 
             return true;
-        }
-
-        public List<CardDto> ProcessCardJson(string json)
-        {
-            if (ValidateJson(json, typeof(List<CardDto>), out var inputJsonArray))
-                return inputJsonArray
-                    .ToObject<List<CardDto>>();
-            else
-                return null;
-        }
-
-        public List<CardDto> ProcessCardJsonFromPath(string path)
-        {
-            return ProcessCardJson(ReadFile(path));
-        }
-
-        public List<CycleDto> ProcessCycleJson(string json)
-        {
-            if (ValidateJson(json, typeof(List<CycleDto>), out var inputJsonArray))
-                return inputJsonArray
-                    .ToObject<List<CycleDto>>();
-            else
-                return null;
-        }
-
-        public List<CycleDto> ProcessCycleJsonFromPath(string path)
-        {
-            return ProcessCycleJson(ReadFile(path));
-        }
-
-        public List<PackDto> ProcessPackJson(string json)
-        {
-            if (ValidateJson(json, typeof(List<PackDto>), out var inputJsonArray))
-                return inputJsonArray
-                    .ToObject<List<PackDto>>();
-            else
-                return null;
-        }
-
-        public List<PackDto> ProcessPackJsonFromPath(string path)
-        {
-            return ProcessPackJson(ReadFile(path));
-        }
-
-        public string ReadFile(string path)
-        {
-            if ((String.IsNullOrWhiteSpace(path))
-                || (path.IndexOfAny(Path.GetInvalidPathChars()) != -1)
-                || (!File.Exists(path))
-                || (Path.GetExtension(path) != ".json"))
-                throw new ArgumentException("Invalid path");
-
-            using (TextReader reader = File.OpenText(path))
-            {
-                return reader.ReadToEnd();
-            }
         }
     }
 }

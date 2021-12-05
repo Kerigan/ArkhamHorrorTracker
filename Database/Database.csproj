@@ -10,6 +10,135 @@
     <None Remove="arkhamdb-json-data\cycles.json" />
     <None Remove="arkhamdb-json-data\packs.json" />
     <None Remove="arkhamdb-json-data\pack\core\core.json" />
+    <None Remove="arkhamdb-json-data\pack\core\core_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\core\rcore.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\bota.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\bota_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\dwl.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\dwl_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\litas.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\litas_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\tece.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\tece_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\tmm.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\tmm_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\uau.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\uau_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\wda.json" />
+    <None Remove="arkhamdb-json-data\pack\dwl\wda_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\eoe\eoec.json" />
+    <None Remove="arkhamdb-json-data\pack\eoe\eoep.json" />
+    <None Remove="arkhamdb-json-data\pack\investigator\har.json" />
+    <None Remove="arkhamdb-json-data\pack\investigator\jac.json" />
+    <None Remove="arkhamdb-json-data\pack\investigator\nat.json" />
+    <None Remove="arkhamdb-json-data\pack\investigator\ste.json" />
+    <None Remove="arkhamdb-json-data\pack\investigator\win.json" />
+    <None Remove="arkhamdb-json-data\pack\parallel\aon.json" />
+    <None Remove="arkhamdb-json-data\pack\parallel\aon_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\parallel\bad.json" />
+    <None Remove="arkhamdb-json-data\pack\parallel\bad_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\parallel\btb.json" />
+    <None Remove="arkhamdb-json-data\pack\parallel\btb_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\parallel\rod.json" />
+    <None Remove="arkhamdb-json-data\pack\parallel\rod_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\promo\bob.json" />
+    <None Remove="arkhamdb-json-data\pack\promo\dre.json" />
+    <None Remove="arkhamdb-json-data\pack\promo\hoth.json" />
+    <None Remove="arkhamdb-json-data\pack\promo\iotv.json" />
+    <None Remove="arkhamdb-json-data\pack\promo\promo.json" />
+    <None Remove="arkhamdb-json-data\pack\promo\tdg.json" />
+    <None Remove="arkhamdb-json-data\pack\promo\tdor.json" />
+    <None Remove="arkhamdb-json-data\pack\promo\tftbw.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\apot.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\apot_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\bsr.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\bsr_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\dca.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\dca_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\eotp.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\eotp_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\ptc.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\ptc_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\tpm.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\tpm_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\tuo.json" />
+    <None Remove="arkhamdb-json-data\pack\ptc\tuo_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rtdwl.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rtdwl_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rtnotz.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rtnotz_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rtptc.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rtptc_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rttcu.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rttcu_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rttfa.json" />
+    <None Remove="arkhamdb-json-data\pack\return\rttfa_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\side\blob_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\side\coh_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\side\cotr_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\side\guardians_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\side\hotel_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\side\lol_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\side\wog_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\bbt.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\bbt_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\fgg.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\fgg_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\icc.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\icc_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\tcu.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\tcu_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\tsn.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\tsn_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\uad.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\uad_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\wos.json" />
+    <None Remove="arkhamdb-json-data\pack\tcu\wos_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\dsm.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\dsm_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\pnr.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\pnr_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\sfk.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\sfk_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\tde.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\tde_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\tsh.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\tsh_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\wgd.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\wgd_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\woc.json" />
+    <None Remove="arkhamdb-json-data\pack\tde\woc_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\hote.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\hote_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\sha.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\sha_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tbb.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tbb_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tcoa.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tcoa_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tdoy.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tdoy_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tfa.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tfa_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tof.json" />
+    <None Remove="arkhamdb-json-data\pack\tfa\tof_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\def.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\def_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\hhg.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\hhg_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\itd.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\itd_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\itm.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\itm_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\lif.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\lif_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\lod.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\lod_encounter.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\tic.json" />
+    <None Remove="arkhamdb-json-data\pack\tic\tic_encounter.json" />
+    <None Remove="ArkhamDbJson\Schema\Definitions\CardSchema.json" />
+    <None Remove="ArkhamDbJson\Schema\Definitions\CycleSchema.json" />
+    <None Remove="ArkhamDbJson\Schema\Definitions\PackSchema.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +149,393 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="arkhamdb-json-data\pack\core\core.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\core\core_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\core\rcore.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\bota.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\bota_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\dwl.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\dwl_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\litas.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\litas_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\tece.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\tece_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\tmm.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\tmm_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\uau.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\uau_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\wda.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\dwl\wda_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\eoe\eoec.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\eoe\eoep.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\investigator\har.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\investigator\jac.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\investigator\nat.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\investigator\ste.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\investigator\win.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\parallel\aon.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\parallel\aon_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\parallel\bad.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\parallel\bad_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\parallel\btb.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\parallel\btb_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\parallel\rod.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\parallel\rod_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\promo\bob.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\promo\dre.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\promo\hoth.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\promo\iotv.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\promo\promo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\promo\tdg.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\promo\tdor.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\promo\tftbw.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\apot.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\apot_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\bsr.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\bsr_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\dca.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\dca_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\eotp.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\eotp_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\ptc.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\ptc_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\tpm.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\tpm_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\tuo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\ptc\tuo_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rtdwl.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rtdwl_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rtnotz.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rtnotz_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rtptc.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rtptc_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rttcu.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rttcu_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rttfa.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\return\rttfa_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\side\blob_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\side\coh_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\side\cotr_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\side\guardians_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\side\hotel_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\side\lol_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\side\wog_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\bbt.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\bbt_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\fgg.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\fgg_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\icc.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\icc_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\tcu.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\tcu_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\tsn.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\tsn_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\uad.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\uad_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\wos.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tcu\wos_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\dsm.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\dsm_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\pnr.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\pnr_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\sfk.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\sfk_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\tde.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\tde_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\tsh.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\tsh_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\wgd.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\wgd_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\woc.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tde\woc_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\hote.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\hote_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\sha.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\sha_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tbb.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tbb_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tcoa.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tcoa_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tdoy.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tdoy_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tfa.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tfa_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tof.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tfa\tof_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\def.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\def_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\hhg.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\hhg_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\itd.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\itd_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\itm.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\itm_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\lif.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\lif_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\lod.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\lod_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\tic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arkhamdb-json-data\pack\tic\tic_encounter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\Schema\Definitions\CardSchema.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\Schema\Definitions\CycleSchema.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ArkhamDbJson\Schema\Definitions\PackSchema.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -1,0 +1,231 @@
+{
+  "definitions": {
+    "CardDto": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "agility": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cost": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "deck_limit": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "deck_options": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/DeckOptionDto"
+          }
+        },
+        "deck_requirements": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "faction_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "flavor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "health": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "illustrator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_unique": {
+          "type": "boolean"
+        },
+        "lore": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "octgn_id": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "pack_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "position": {
+          "type": "integer"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "restrictions": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sanity": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "slot": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "strength": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "subtype_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "traits": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "wild": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "will": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "code",
+        "pack_code",
+        "position",
+        "quantity"
+      ]
+    },
+    "DeckOptionDto": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "faction": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "level": {
+          "$ref": "#/definitions/DeckOptionLevelDto"
+        },
+        "limit": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "error": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "DeckOptionLevelDto": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "min": {
+          "type": "integer"
+        },
+        "max": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ]
+    }
+  },
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/CardDto"
+  }
+}

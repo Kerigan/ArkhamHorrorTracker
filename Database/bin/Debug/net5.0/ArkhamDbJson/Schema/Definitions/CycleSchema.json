@@ -1,0 +1,35 @@
+{
+  "type": "array",
+  "items": {
+    "type": [
+      "object",
+      "null"
+    ],
+    "properties": {
+      "code": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "position": {
+        "type": "integer"
+      },
+      "size": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "code",
+      "name",
+      "position",
+      "size"
+    ]
+  }
+}

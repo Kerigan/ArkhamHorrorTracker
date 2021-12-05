@@ -56,7 +56,7 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto
         [JsonProperty("lore", NullValueHandling = NullValueHandling.Ignore)]
         public int? Lore { get; set; }
 
-        [JsonProperty("name")]
+        [JsonProperty("name", NullValueHandling = NullValueHandling.Ignore)]
         public string Name { get; set; }
 
         [JsonProperty("octgn_id", NullValueHandling = NullValueHandling.Ignore)]
@@ -98,7 +98,7 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto
         public string Traits { get; set; }
 
         /// Type of the card. Possible values: "asset", "event", "skill", "treachery", "investigator"
-        [JsonProperty("type_code")]
+        [JsonProperty("type_code", NullValueHandling = NullValueHandling.Ignore)]
         public string TypeCode { get; set; }
 
         /// Number of wild icons for use in skill checks
