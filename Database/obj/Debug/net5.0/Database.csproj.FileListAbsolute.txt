@@ -1,0 +1,12 @@
+C:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\ArkhamHorrorTracker.Database.deps.json
+C:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\ArkhamHorrorTracker.Database.dll
+C:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\ref\ArkhamHorrorTracker.Database.dll
+C:\Code\ArkhamHorrorTracker\Database\bin\Debug\net5.0\ArkhamHorrorTracker.Database.pdb
+C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.csproj.AssemblyReference.cache
+C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.AssemblyInfoInputs.cache
+C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.AssemblyInfo.cs
+C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\Database.csproj.CoreCompileInputs.cache
+C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ArkhamHorrorTracker.Database.dll
+C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ref\ArkhamHorrorTracker.Database.dll
+C:\Code\ArkhamHorrorTracker\Database\obj\Debug\net5.0\ArkhamHorrorTracker.Database.pdb

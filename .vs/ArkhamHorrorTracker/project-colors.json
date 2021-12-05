@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b61401b1-463d-4627-bba8-a062229d2bb7": {
+      "ProjectGuid": "b61401b1-463d-4627-bba8-a062229d2bb7",
+      "DisplayName": "Api",
+      "ColorIndex": 0
+    },
+    "447ba0cf-c9b1-4960-ba38-7cd4f2f0a5da": {
+      "ProjectGuid": "447ba0cf-c9b1-4960-ba38-7cd4f2f0a5da",
+      "DisplayName": "FrontEndReact",
+      "ColorIndex": 1
+    },
+    "6ddf2d90-d7c7-4b87-ad03-092677dab340": {
+      "ProjectGuid": "6ddf2d90-d7c7-4b87-ad03-092677dab340",
+      "DisplayName": "Database",
+      "ColorIndex": 2
+    },
+    "7a2f95f5-b073-4e10-b2e6-baec36982b40": {
+      "ProjectGuid": "7a2f95f5-b073-4e10-b2e6-baec36982b40",
+      "DisplayName": "Core",
+      "ColorIndex": 3
+    },
+    "df7471b4-4ece-489a-836e-033679547c00": {
+      "ProjectGuid": "df7471b4-4ece-489a-836e-033679547c00",
+      "DisplayName": "Tests.Api",
+      "ColorIndex": 4
+    },
+    "68ea6259-fc3c-4ee2-bfdc-2e60229ee4ed": {
+      "ProjectGuid": "68ea6259-fc3c-4ee2-bfdc-2e60229ee4ed",
+      "DisplayName": "Tests.Database",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
