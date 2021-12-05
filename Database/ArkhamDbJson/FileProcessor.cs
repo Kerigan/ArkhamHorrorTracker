@@ -3,13 +3,10 @@ using ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
-using Newtonsoft.Json.Schema.Generation;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ArkhamHorrorTracker.Database.ArkhamDbJson
 {

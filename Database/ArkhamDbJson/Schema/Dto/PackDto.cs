@@ -33,7 +33,6 @@ namespace ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto
         [JsonProperty("size")]
         public int? Size { get; set; }
 
-        [JsonIgnore]
         public List<CardDto> Cards { get; set; }
 
         public PackDto()

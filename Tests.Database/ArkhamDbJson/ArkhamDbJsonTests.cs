@@ -1,15 +1,6 @@
-﻿using ArkhamHorrorTracker.Database.ArkhamDbJson;
-using ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto;
+﻿using ArkhamHorrorTracker.Database.ArkhamDbJson.Schema.Dto;
 using FluentAssertions;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Tests.Database.ArkhamDbJson.ArkhamDbJsonTests
